@@ -1,8 +1,8 @@
 pipeline {
   agent any
   environment {
-    CLOUDSDK_CORE_PROJECT='round-axiom-372206'
-    CLIENT_EMAIL='411912745665-compute@developer.gserviceaccount.com'
+    CLOUDSDK_CORE_PROJECT=''
+    CLIENT_EMAIL=''
     GCLOUD_CREDS=credentials('gcloud-creds')
   }
   stages {
